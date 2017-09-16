@@ -14,7 +14,13 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
     
     Console.log your object.
 */
-    
+    var books = {
+      title: "The obstacle is the Way",
+      author: "Ryan Holiday",
+      category: "self Help",
+      pages: 200
+    };
+    console.log(books);
   
 /*
 2.  Declare a variable named `dog` and create the following properties (key-value pairs) to the object:
@@ -30,7 +36,14 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
  
  "My dog `name` is `age` year old and likes to `speak`."
 */ 
-
+var dog = {
+  name: "Sydka",
+  age: 9,
+  vegeterian: false,
+  color: ["brown", "white"],
+  speak: "bark!"
+};
+console.log("My dog " + dog.name + " is " + dog.age + " years old and likes to " + dog.speak);
 
 
 //An empty object
@@ -46,6 +59,15 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
             
   Console.log the object.
 */
+var kicks = {};
+kicks.brand = "nike";
+kicks.color = "red";
+kicks.size = 12;
+kicks.buy = "Hell Yeah!";
+console.log(kicks);
+
+
+
 
 
 /* 
@@ -56,6 +78,10 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
             - add a property named `size` and set it to a number value between `0` and `20`.
             - add a property named `contents` and set it to be an empty array.
 */
+var plainBox = {};
+plainBox.color = blue;
+plainBox.size = 15;
+plainBox.contents = [];
 
 
 /*
@@ -66,7 +92,13 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
             - add a key named `driver` and set it to be `null`.
             - add a key named `passengers` and set it to be an empty array.
 */
-
+var stockCar = {
+  model: "toyota",
+  year: 2013,
+  automaticTransmission: true,
+  driver: null,
+  passengers:[]
+};
 
 /*
 
